@@ -28,6 +28,10 @@ h6 {
   color: #333;
 }
 
+#titelnaam {
+  padding-bottom: 100px;
+}
+
 .titel {
   font-size: calc();
 }
