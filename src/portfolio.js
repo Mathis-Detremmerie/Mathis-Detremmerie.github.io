@@ -21,12 +21,11 @@ const illustration = {
 
 const greeting = {
   username: "Mathis Detremmerie",
-  title: "Hi all, I'm Mathis",
-  subTitle: (
-    "A passionate system and network engineer 🚀 having an experience of building a network infrastructure with al neccesery servers!"
-  ),
+  title: "Mathis Detremmerie",
+  subTitle:
+    "Ik ben een gemotiveerde student toegepaste informatica met focus op systeem en netwerkbeheer. 🚀 Daarnaast ben ik ook een heel leergierige student met een enorme passie voor de maritieme industrie!",
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1dDdeiBu-ahkXhA9-TV_kh5k_tp13WWZL/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -45,16 +44,13 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "INTEGRATE SYSTEMS IN TO NETWORKS AND CONFIGURE SYSYEMS AS CODE",
+  title: "Wat doe ik?",
+  subTitle:
+    "Opzetten van servers en deze integreren in verschillende netwerk topologiën",
   skills: [
-    emoji(
-      "⚡ high availability servers"
-    ),
-    emoji("⚡ build secure networks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ opzetten van AD, web, mail, dns... servers"),
+    emoji("⚡ bouwen van veilige netwerken"),
+    emoji("⚡ infrastructure as code schrijven")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -74,10 +70,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -92,6 +84,22 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Windows server",
+      fontAwesomeClassname: "fab fa-windows"
+    },
+    {
+      skillName: "vagrant",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "bash",
+      fontAwesomeClassname: "fas fa-code"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -109,13 +117,14 @@ const educationInfo = {
       duration: "September 2014 - Juli 2020",
       desc: "Winnaar van de Generation Euro Student Awards 2020",
       descBullets: [
-        "Een webstrijd voor student over de het beleid van de ECB, georganiseerd door de ECB en de nationale bank van België",
+        "Een webstrijd voor student over de het beleid van de ECB, georganiseerd door de ECB en de nationale bank van België"
       ]
     },
     {
       schoolName: "Hogent",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Proffesionele bachelor Toegepaste informatica, systeem & netwerkbeheer",
+      subHeader:
+        "Proffesionele bachelor Toegepaste informatica, systeem & netwerkbeheer",
       duration: "September 2022 - juli 2023",
       descBullets: ["Keuzevak: e-marketing"]
     }
@@ -153,9 +162,10 @@ const workExperiences = {
       company: "Minerva Boat Company",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "2020 – Heden",
-      desc: "Hulp bij verhuren van boten, onthaal, slepen en technische ondersteuning met motoren.",
+      desc:
+        "Hulp bij verhuren van boten, onthaal, slepen en technische ondersteuning met motoren.",
       descBullets: [
-        "Gegroeid van steigerhulp naar all-round medewerker",
+        "Gegroeid van steigerhulp naar all-round student medewerker"
       ]
     },
     {
@@ -163,14 +173,16 @@ const workExperiences = {
       company: "KRCG",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "2020 – 2022",
-      desc: "Trainen van roeiers 15j tot 19j voor wedstrijden en Belgisch kampioenschappen."
+      desc:
+        "Trainen van roeiers 15j tot 19j voor wedstrijden en Belgisch kampioenschappen."
     },
     {
       role: "Keuken en zaalhulp",
       company: "Poco Loco Peruaans restaurant",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "2018-2019",
-      desc: "Cocktails maken aan de bar, opdienen van de zaal en voorbereidingen in de keuken."
+      desc:
+        "Cocktails maken aan de bar, opdienen van de zaal en voorbereidingen in de keuken."
     }
   ]
 };
@@ -234,15 +246,18 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url:
+            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url:
+            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url:
+            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
@@ -255,7 +270,8 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url:
+            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
     },
@@ -286,7 +302,8 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url:
+        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
@@ -335,8 +352,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Wil je eens hallo zeggen of heb je vragen",
+  subtitle: "Wil je eens hallo zeggen of heb je vragen",
   number: "+32 496 20 45 94",
   email_address: "mathis.detremmerie@gmail.com"
 };

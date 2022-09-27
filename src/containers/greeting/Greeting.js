@@ -26,7 +26,6 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                
               </h1>
               <p
                 className={
@@ -39,10 +38,10 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Contacteer me" href="#contact" />
                 {greeting.resumeLink && (
                   <Button
-                    text="See my resume"
+                    text="Bekijk mijn CV"
                     newTab={true}
                     href={greeting.resumeLink}
                   />
