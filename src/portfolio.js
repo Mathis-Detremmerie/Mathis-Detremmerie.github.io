@@ -177,6 +177,14 @@ const workExperiences = {
         "Trainen van roeiers 15j tot 19j voor wedstrijden en Belgisch kampioenschappen."
     },
     {
+      role: "R&D Intern",
+      company: "Dropsolid",
+      companylogo: require("./assets/images/dropsolid.png"),
+      date: "2023 – 2023",
+      desc:
+        "Being a part of the Dropsolid Experience Cloud Team and reworking the monitoring solution"
+    },
+    {
       role: "Keuken en zaalhulp",
       company: "Poco Loco Peruaans restaurant",
       companylogo: require("./assets/images/airbnbLogo.png"),
