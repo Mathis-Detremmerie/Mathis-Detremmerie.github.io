@@ -33,7 +33,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Mathis-Detremmerie",
-  linkedin: "https://www.linkedin.com/in/mathis-detremmerie-a090a9209/",
+  linkedin: "https://www.linkedin.com/in/mathis-detremmerie/",
   gmail: "mathis.detremmerie@gmail.com",
 
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -46,11 +46,12 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Wat doe ik?",
   subTitle:
-    "Opzetten van servers en deze integreren in verschillende netwerk topologiën",
+    "student Maritiem officier in Vlissingen met een achtergrond in Systeem en Netwerkbeheer",
   skills: [
     emoji("⚡ opzetten van AD, web, mail, dns... servers"),
     emoji("⚡ bouwen van veilige netwerken"),
-    emoji("⚡ infrastructure as code schrijven")
+    emoji("⚡ infrastructure as code schrijven"),
+    emoji("⚡ Navigatie op schepen")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -127,30 +128,38 @@ const educationInfo = {
         "Proffesionele bachelor Toegepaste informatica, systeem & netwerkbeheer",
       duration: "September 2022 - juli 2023",
       descBullets: ["Keuzevak: e-marketing"]
+    },
+    {
+      schoolName: "HZ University of applied sciences",
+      logo: require("./assets/images/HZ.png"),
+      subHeader: "Maritiem officier",
+      duration: "September 2023 - Juli 2027",
+      desc: "Winnaar van de Generation Euro Student Awards 2020",
+      descBullets: ["Nautische kant van de opleiding"]
     }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Linux/Bash", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Windows Server",
-      progressPercentage: "75%"
-    },
-    {
-      Stack: "Cisco CLI",
-      progressPercentage: "70%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
+// const techStack = {
+//   viewSkillBars: true, //Set it to true to show Proficiency Section
+//   experience: [
+//     {
+//       Stack: "Linux/Bash", //Insert stack or technology you have experience in
+//       progressPercentage: "90%" //Insert relative proficiency in percentage
+//     },
+//     {
+//       Stack: "Windows Server",
+//       progressPercentage: "75%"
+//     },
+//     {
+//       Stack: "Cisco CLI",
+//       progressPercentage: "70%"
+//     }
+//   ],
+//   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+// };
 
 // Work experience section
 
@@ -167,6 +176,13 @@ const workExperiences = {
       descBullets: [
         "Gegroeid van steigerhulp naar all-round student medewerker"
       ]
+    },
+    {
+      role: "Car terminal medewerker",
+      company: "CLdN",
+      companylogo: require("./assets/images/CLDN.png"),
+      date: "2023 - heden",
+      desc: "Verzetten van nieuwe wagens op de terminal op schepen en treinen."
     },
     {
       role: "Coach KRCG",
@@ -199,7 +215,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
