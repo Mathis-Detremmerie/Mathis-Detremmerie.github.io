@@ -384,7 +384,7 @@ export {
   techStack,
   workExperiences,
   openSource,
-  // bigProjects,
+  bigProjects,
   achievementSection,
   blogSection,
   talkSection,
